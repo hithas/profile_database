@@ -23,5 +23,6 @@ class ApplicationController < ActionController::Base
     redirect_to "/rails/#{p.id}"
   end
   
+  #LOOK! IT'S OBAMA!!!
     
 end
