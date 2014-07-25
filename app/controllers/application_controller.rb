@@ -22,7 +22,7 @@ class ApplicationController < ActionController::Base
     p.save
     redirect_to "/rails/#{p.id}"
   end
-  
+ 
   def edit
     @profile = Profile.find_by_id(params['id'])
   end
@@ -37,6 +37,4 @@ class ApplicationController < ActionController::Base
     p.save
     redirect_to "/rails/#{p.id}"
   end
-  
-    
 end
