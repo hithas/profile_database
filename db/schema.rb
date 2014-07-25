@@ -33,14 +33,4 @@ ActiveRecord::Schema.define(version: 20140724190513) do
     t.datetime "updated_at"
   end
 
-  create_table "tests", force: true do |t|
-    t.string   "name"
-    t.string   "subname"
-    t.string   "picture"
-    t.string   "text"
-    t.string   "location"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
 end
